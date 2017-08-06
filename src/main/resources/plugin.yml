@@ -1,0 +1,20 @@
+name: FakeSlots
+version: 1.4
+author: dzikismigol
+main: com.github.dzikismigol.fakeslots.FakeSlotsPlugin
+prefix: FakeSlots
+load: STARTUP
+website: http://www.dev.bukkit.org/server-mods/fakeslots
+commands:
+  fakeslots:
+    usage: /fakeslots <reset/reload/[number of slots]>
+    permission: fakeslots.fake
+    description: Allows control over fake slots number.
+  realslots:
+    usage: /realslots <reset/[number of slots]>
+    permission: fakeslots.real
+    description: Gives you control over slots management.
+  slotsinfo:
+    usage: /slotsinfo
+    permission: fakeslots.info
+    description: Tells you how many fake and real slots you currently have.
